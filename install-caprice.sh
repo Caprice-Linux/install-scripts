@@ -14,7 +14,7 @@ get_disk () {
 caprice_chroot () {
  sudo chroot /mnt deluser live
  sudo chroot /mnt rm -rvf /home/live
- sudo chroot /mnt cp /etc/lightdm.conf.bak /etc/lightdm.conf
+ sudo chroot /mnt cp /etc/lightdm/lightdm.conf.bak /etc/lightdm/lightdm.conf
  echo "System Setup Complete!"
 }
 
