@@ -19,10 +19,10 @@ caprice_chroot () {
 }
 
 free_disk () {
- umount /mnt/dev
- umount /mnt/proc
- umount /mnt/sys
- umount /mnt
+ sudo umount /mnt/dev
+ sudo umount /mnt/proc
+ sudo umount /mnt/sys
+ sudo umount /mnt
 }
 
 caprice_reboot () {
